@@ -1,6 +1,6 @@
 package stepdefinitions;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
+
 import io.cucumber.java.en.When;
 import org.testng.Assert;
 import pages.ApiDemosPage;
@@ -39,5 +39,12 @@ public class ApiDemosSteps {
     @When("tablarden {string} tabine tıklanır")
     public void tablardenTabineTıklanır(String text) {
         apiDemosPage.clickTab(text);
+    }
+
+    @When("tablardan touch paint tabine tıklanır")
+    public void tablardanTouchPaintTabineTıklanır() {
+
+        apiDemosPage.clickTouchPaintTab();
+
     }
 }

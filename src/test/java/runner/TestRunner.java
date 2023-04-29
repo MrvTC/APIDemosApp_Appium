@@ -7,7 +7,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 @CucumberOptions(
-        tags = "@Ornek4",
+        tags = "@Visibility and @CheckActions",
         features = "src/test/resources/features",
         glue = {"stepdefinitions","utils"},
         plugin = {

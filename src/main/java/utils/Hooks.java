@@ -52,4 +52,5 @@ public class Hooks {
     public String getBase64Screenshot() {
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BASE64);
     }
+
 }
